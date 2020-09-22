@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.canvasContainer {
+  position: relative;
+}
+
+.gameCanvas {
+  background-color: white;
+}
+
+.gridCanvas {
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+}

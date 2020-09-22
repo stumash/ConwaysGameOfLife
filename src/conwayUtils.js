@@ -61,15 +61,11 @@ function countLivingNeighbors(grid, i, j) {
 function animateGameOfLife(grid, pencil, settings) {
   const MAX_WIDTH = settings.CANVAS_WIDTH * settings.CELL_SIZE;
   const MAX_HEIGHT = settings.CANVAS_HEIGHT * settings.CELL_SIZE;
-
-  pencil.fillStyle = settings.WHITE;
-  pencil.fillRect(0, 0, MAX_WIDTH, MAX_HEIGHT);
+  
+  pencil.clearRect(0, 0, MAX_WIDTH, MAX_HEIGHT);
 
   pencil.fillStyle = settings.GREEN;
   drawLivingCells(grid, pencil, settings);
-
-  pencil.fillStyle = settings.BLACK;
-  drawGridLines(grid, pencil, settings);
 }
 
 function drawLivingCells(grid, pencil, settings) {
@@ -85,7 +81,7 @@ function drawLivingCells(grid, pencil, settings) {
     }
   }
 }
-function drawGridLines(_, pencil, settings) {
+function drawGridLines(pencil, settings) {
   const CELL_SIZE = settings.CELL_SIZE;
   for (let i = 0; i <= settings.CANVAS_WIDTH; i++) {
     pencil.moveTo(i * CELL_SIZE, 0);
@@ -99,4 +95,4 @@ function drawGridLines(_, pencil, settings) {
   }
 }
 
-export { updateGameOfLife, animateGameOfLife };
+export { updateGameOfLife, animateGameOfLife, drawGridLines };
