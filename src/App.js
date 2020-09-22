@@ -49,7 +49,7 @@ const App = () => {
 
   useEffect(() => {
     drawGridLines(gridCanvasRef.current.getContext("2d"), MERGED_CONSTANTS)
-  })
+  }, [])
 
   useEffect(() => {
     // dont start the loop if the game isnt running
