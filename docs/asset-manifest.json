@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ConwaysGameOfLife/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ConwaysGameOfLife/static/js/main.8daba9e7.chunk.js",
-    "main.js.map": "/ConwaysGameOfLife/static/js/main.8daba9e7.chunk.js.map",
+    "main.js": "/ConwaysGameOfLife/static/js/main.e33e17d3.chunk.js",
+    "main.js.map": "/ConwaysGameOfLife/static/js/main.e33e17d3.chunk.js.map",
     "runtime-main.js": "/ConwaysGameOfLife/static/js/runtime-main.b355990a.js",
     "runtime-main.js.map": "/ConwaysGameOfLife/static/js/runtime-main.b355990a.js.map",
-    "static/js/2.0ef6c10c.chunk.js": "/ConwaysGameOfLife/static/js/2.0ef6c10c.chunk.js",
-    "static/js/2.0ef6c10c.chunk.js.map": "/ConwaysGameOfLife/static/js/2.0ef6c10c.chunk.js.map",
+    "static/js/2.86f98ff4.chunk.js": "/ConwaysGameOfLife/static/js/2.86f98ff4.chunk.js",
+    "static/js/2.86f98ff4.chunk.js.map": "/ConwaysGameOfLife/static/js/2.86f98ff4.chunk.js.map",
     "index.html": "/ConwaysGameOfLife/index.html",
-    "precache-manifest.988550741652e3532d1d3cb51709da65.js": "/ConwaysGameOfLife/precache-manifest.988550741652e3532d1d3cb51709da65.js",
+    "precache-manifest.f9442bc64942c9d95a3d2fe900ca7625.js": "/ConwaysGameOfLife/precache-manifest.f9442bc64942c9d95a3d2fe900ca7625.js",
     "service-worker.js": "/ConwaysGameOfLife/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ConwaysGameOfLife/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0ef6c10c.chunk.js.LICENSE.txt": "/ConwaysGameOfLife/static/js/2.0ef6c10c.chunk.js.LICENSE.txt"
+    "static/js/2.86f98ff4.chunk.js.LICENSE.txt": "/ConwaysGameOfLife/static/js/2.86f98ff4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b355990a.js",
-    "static/js/2.0ef6c10c.chunk.js",
+    "static/js/2.86f98ff4.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8daba9e7.chunk.js"
+    "static/js/main.e33e17d3.chunk.js"
   ]
 }
